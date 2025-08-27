@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E1C2C652B8919D500C179C0 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C642B8919D500C179C0 /* FirebaseAnalytics */; };
+		3E1C2C672B8919D500C179C0 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C662B8919D500C179C0 /* FirebaseAnalyticsOnDeviceConversion */; };
+		3E1C2C692B8919D500C179C0 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C682B8919D500C179C0 /* FirebaseAnalyticsSwift */; };
+		3E1C2C6B2B8919D500C179C0 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C6A2B8919D500C179C0 /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		3E1C2C6D2B8919D500C179C0 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C6C2B8919D500C179C0 /* FirebaseAppCheck */; };
+		3E1C2C6F2B8919D500C179C0 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C6E2B8919D500C179C0 /* FirebaseAppDistribution-Beta */; };
+		3E1C2C712B8919D500C179C0 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C702B8919D500C179C0 /* FirebaseAuth */; };
+		3E1C2C732B8919D500C179C0 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C722B8919D500C179C0 /* FirebaseAuthCombine-Community */; };
+		3E1C2C752B8919D500C179C0 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C742B8919D500C179C0 /* FirebaseCrashlytics */; };
+		3E1C2C772B8919D500C179C0 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C762B8919D500C179C0 /* FirebaseDatabase */; };
+		3E1C2C792B8919D500C179C0 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C782B8919D500C179C0 /* FirebaseDatabaseSwift */; };
+		3E1C2C7B2B8919D500C179C0 /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C7A2B8919D500C179C0 /* FirebaseDynamicLinks */; };
+		3E1C2C7D2B8919D500C179C0 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C7C2B8919D500C179C0 /* FirebaseFirestore */; };
+		3E1C2C7F2B8919D500C179C0 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C7E2B8919D500C179C0 /* FirebaseFirestoreCombine-Community */; };
+		3E1C2C812B8919D500C179C0 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C802B8919D500C179C0 /* FirebaseFirestoreSwift */; };
+		3E1C2C832B8919D500C179C0 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C822B8919D500C179C0 /* FirebaseFunctions */; };
+		3E1C2C852B8919D500C179C0 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C842B8919D500C179C0 /* FirebaseFunctionsCombine-Community */; };
+		3E1C2C872B8919D500C179C0 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C862B8919D500C179C0 /* FirebaseInAppMessaging-Beta */; };
+		3E1C2C892B8919D500C179C0 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C882B8919D500C179C0 /* FirebaseInAppMessagingSwift-Beta */; };
+		3E1C2C8B2B8919D500C179C0 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C8A2B8919D500C179C0 /* FirebaseInstallations */; };
+		3E1C2C8D2B8919D500C179C0 /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C8C2B8919D500C179C0 /* FirebaseMLModelDownloader */; };
+		3E1C2C8F2B8919D500C179C0 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C8E2B8919D500C179C0 /* FirebaseMessaging */; };
+		3E1C2C912B8919D500C179C0 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C902B8919D500C179C0 /* FirebasePerformance */; };
+		3E1C2C932B8919D500C179C0 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C922B8919D500C179C0 /* FirebaseRemoteConfig */; };
+		3E1C2C952B8919D500C179C0 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C942B8919D500C179C0 /* FirebaseRemoteConfigSwift */; };
+		3E1C2C972B8919D500C179C0 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C962B8919D500C179C0 /* FirebaseStorage */; };
+		3E1C2C992B8919D500C179C0 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 3E1C2C982B8919D500C179C0 /* FirebaseStorageCombine-Community */; };
+		3EEDEFB72B8FB54100B59CBE /* Advotech Keyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3EEDEFB02B8FB54100B59CBE /* Advotech Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3EEDEFC32B8FB61A00B59CBE /* Latest in Resources */ = {isa = PBXBuildFile; fileRef = 3EEDEFC22B8FB61A00B59CBE /* Latest */; };
+		3EEDEFC42B8FB61A00B59CBE /* Latest in Resources */ = {isa = PBXBuildFile; fileRef = 3EEDEFC22B8FB61A00B59CBE /* Latest */; };
+		3EEDEFD02B8FB6EC00B59CBE /* Test Keyboard.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 3EEDEFC92B8FB6EC00B59CBE /* Test Keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3EEDEFD52B8FB6FD00B59CBE /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEDEFD42B8FB6FD00B59CBE /* KeyboardViewController.swift */; };
+		3EEDEFD72B8FB71900B59CBE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EEDEFD62B8FB71900B59CBE /* Info.plist */; };
+		3EEDEFD82B8FB73100B59CBE /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3EEDEFD62B8FB71900B59CBE /* Info.plist */; };
+		3EEDEFD92B8FB73800B59CBE /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEDEFD42B8FB6FD00B59CBE /* KeyboardViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3EEDEFB52B8FB54100B59CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E1C2C402B8916F400C179C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EEDEFAF2B8FB54100B59CBE;
+			remoteInfo = "Advotech Keyboard";
+		};
+		3EEDEFCE2B8FB6EC00B59CBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3E1C2C402B8916F400C179C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EEDEFC82B8FB6EC00B59CBE;
+			remoteInfo = "Test Keyboard";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3EEDEFB82B8FB54100B59CBE /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3EEDEFD02B8FB6EC00B59CBE /* Test Keyboard.appex in Embed Foundation Extensions */,
+				3EEDEFB72B8FB54100B59CBE /* Advotech Keyboard.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E1C2C482B8916F400C179C0 /* Advoteck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Advoteck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEDEFB02B8FB54100B59CBE /* Advotech Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Advotech Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEDEFC22B8FB61A00B59CBE /* Latest */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Latest; path = ../../Desktop/Latest; sourceTree = "<group>"; };
+		3EEDEFC92B8FB6EC00B59CBE /* Test Keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Test Keyboard.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EEDEFD42B8FB6FD00B59CBE /* KeyboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeyboardViewController.swift; path = ../../../Desktop/Latest/KeyboardAdvotech/KeyboardViewController.swift; sourceTree = "<group>"; };
+		3EEDEFD62B8FB71900B59CBE /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../Desktop/Latest/KeyboardAdvotech/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E1C2C452B8916F400C179C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E1C2C772B8919D500C179C0 /* FirebaseDatabase in Frameworks */,
+				3E1C2C852B8919D500C179C0 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				3E1C2C7D2B8919D500C179C0 /* FirebaseFirestore in Frameworks */,
+				3E1C2C692B8919D500C179C0 /* FirebaseAnalyticsSwift in Frameworks */,
+				3E1C2C652B8919D500C179C0 /* FirebaseAnalytics in Frameworks */,
+				3E1C2C672B8919D500C179C0 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				3E1C2C8D2B8919D500C179C0 /* FirebaseMLModelDownloader in Frameworks */,
+				3E1C2C812B8919D500C179C0 /* FirebaseFirestoreSwift in Frameworks */,
+				3E1C2C6D2B8919D500C179C0 /* FirebaseAppCheck in Frameworks */,
+				3E1C2C6B2B8919D500C179C0 /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				3E1C2C712B8919D500C179C0 /* FirebaseAuth in Frameworks */,
+				3E1C2C752B8919D500C179C0 /* FirebaseCrashlytics in Frameworks */,
+				3E1C2C952B8919D500C179C0 /* FirebaseRemoteConfigSwift in Frameworks */,
+				3E1C2C872B8919D500C179C0 /* FirebaseInAppMessaging-Beta in Frameworks */,
+				3E1C2C792B8919D500C179C0 /* FirebaseDatabaseSwift in Frameworks */,
+				3E1C2C832B8919D500C179C0 /* FirebaseFunctions in Frameworks */,
+				3E1C2C992B8919D500C179C0 /* FirebaseStorageCombine-Community in Frameworks */,
+				3E1C2C932B8919D500C179C0 /* FirebaseRemoteConfig in Frameworks */,
+				3E1C2C6F2B8919D500C179C0 /* FirebaseAppDistribution-Beta in Frameworks */,
+				3E1C2C732B8919D500C179C0 /* FirebaseAuthCombine-Community in Frameworks */,
+				3E1C2C912B8919D500C179C0 /* FirebasePerformance in Frameworks */,
+				3E1C2C892B8919D500C179C0 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				3E1C2C972B8919D500C179C0 /* FirebaseStorage in Frameworks */,
+				3E1C2C7B2B8919D500C179C0 /* FirebaseDynamicLinks in Frameworks */,
+				3E1C2C7F2B8919D500C179C0 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				3E1C2C8F2B8919D500C179C0 /* FirebaseMessaging in Frameworks */,
+				3E1C2C8B2B8919D500C179C0 /* FirebaseInstallations in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEDEFAD2B8FB54100B59CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEDEFC62B8FB6EC00B59CBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E1C2C3F2B8916F400C179C0 = {
+			isa = PBXGroup;
+			children = (
+				3EEDEFC22B8FB61A00B59CBE /* Latest */,
+				3EEDEFCA2B8FB6EC00B59CBE /* Test Keyboard */,
+				3E1C2C492B8916F400C179C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E1C2C492B8916F400C179C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E1C2C482B8916F400C179C0 /* Advoteck.app */,
+				3EEDEFB02B8FB54100B59CBE /* Advotech Keyboard.appex */,
+				3EEDEFC92B8FB6EC00B59CBE /* Test Keyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3EEDEFCA2B8FB6EC00B59CBE /* Test Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				3EEDEFD42B8FB6FD00B59CBE /* KeyboardViewController.swift */,
+				3EEDEFD62B8FB71900B59CBE /* Info.plist */,
+			);
+			path = "Test Keyboard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E1C2C472B8916F400C179C0 /* Advoteck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E1C2C562B8916F700C179C0 /* Build configuration list for PBXNativeTarget "Advoteck" */;
+			buildPhases = (
+				3E1C2C442B8916F400C179C0 /* Sources */,
+				3E1C2C452B8916F400C179C0 /* Frameworks */,
+				3E1C2C462B8916F400C179C0 /* Resources */,
+				3EEDEFB82B8FB54100B59CBE /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3EEDEFB62B8FB54100B59CBE /* PBXTargetDependency */,
+				3EEDEFCF2B8FB6EC00B59CBE /* PBXTargetDependency */,
+			);
+			name = Advoteck;
+			packageProductDependencies = (
+				3E1C2C642B8919D500C179C0 /* FirebaseAnalytics */,
+				3E1C2C662B8919D500C179C0 /* FirebaseAnalyticsOnDeviceConversion */,
+				3E1C2C682B8919D500C179C0 /* FirebaseAnalyticsSwift */,
+				3E1C2C6A2B8919D500C179C0 /* FirebaseAnalyticsWithoutAdIdSupport */,
+				3E1C2C6C2B8919D500C179C0 /* FirebaseAppCheck */,
+				3E1C2C6E2B8919D500C179C0 /* FirebaseAppDistribution-Beta */,
+				3E1C2C702B8919D500C179C0 /* FirebaseAuth */,
+				3E1C2C722B8919D500C179C0 /* FirebaseAuthCombine-Community */,
+				3E1C2C742B8919D500C179C0 /* FirebaseCrashlytics */,
+				3E1C2C762B8919D500C179C0 /* FirebaseDatabase */,
+				3E1C2C782B8919D500C179C0 /* FirebaseDatabaseSwift */,
+				3E1C2C7A2B8919D500C179C0 /* FirebaseDynamicLinks */,
+				3E1C2C7C2B8919D500C179C0 /* FirebaseFirestore */,
+				3E1C2C7E2B8919D500C179C0 /* FirebaseFirestoreCombine-Community */,
+				3E1C2C802B8919D500C179C0 /* FirebaseFirestoreSwift */,
+				3E1C2C822B8919D500C179C0 /* FirebaseFunctions */,
+				3E1C2C842B8919D500C179C0 /* FirebaseFunctionsCombine-Community */,
+				3E1C2C862B8919D500C179C0 /* FirebaseInAppMessaging-Beta */,
+				3E1C2C882B8919D500C179C0 /* FirebaseInAppMessagingSwift-Beta */,
+				3E1C2C8A2B8919D500C179C0 /* FirebaseInstallations */,
+				3E1C2C8C2B8919D500C179C0 /* FirebaseMLModelDownloader */,
+				3E1C2C8E2B8919D500C179C0 /* FirebaseMessaging */,
+				3E1C2C902B8919D500C179C0 /* FirebasePerformance */,
+				3E1C2C922B8919D500C179C0 /* FirebaseRemoteConfig */,
+				3E1C2C942B8919D500C179C0 /* FirebaseRemoteConfigSwift */,
+				3E1C2C962B8919D500C179C0 /* FirebaseStorage */,
+				3E1C2C982B8919D500C179C0 /* FirebaseStorageCombine-Community */,
+			);
+			productName = Advoteck;
+			productReference = 3E1C2C482B8916F400C179C0 /* Advoteck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3EEDEFAF2B8FB54100B59CBE /* Advotech Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EEDEFBB2B8FB54100B59CBE /* Build configuration list for PBXNativeTarget "Advotech Keyboard" */;
+			buildPhases = (
+				3EEDEFAC2B8FB54100B59CBE /* Sources */,
+				3EEDEFAD2B8FB54100B59CBE /* Frameworks */,
+				3EEDEFAE2B8FB54100B59CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Advotech Keyboard";
+			productName = "Advotech Keyboard";
+			productReference = 3EEDEFB02B8FB54100B59CBE /* Advotech Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		3EEDEFC82B8FB6EC00B59CBE /* Test Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3EEDEFD12B8FB6EC00B59CBE /* Build configuration list for PBXNativeTarget "Test Keyboard" */;
+			buildPhases = (
+				3EEDEFC52B8FB6EC00B59CBE /* Sources */,
+				3EEDEFC62B8FB6EC00B59CBE /* Frameworks */,
+				3EEDEFC72B8FB6EC00B59CBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Keyboard";
+			productName = "Test Keyboard";
+			productReference = 3EEDEFC92B8FB6EC00B59CBE /* Test Keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E1C2C402B8916F400C179C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					3E1C2C472B8916F400C179C0 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3EEDEFAF2B8FB54100B59CBE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					3EEDEFC82B8FB6EC00B59CBE = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 3E1C2C432B8916F400C179C0 /* Build configuration list for PBXProject "Advoteck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E1C2C3F2B8916F400C179C0;
+			packageReferences = (
+				3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 3E1C2C492B8916F400C179C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E1C2C472B8916F400C179C0 /* Advoteck */,
+				3EEDEFAF2B8FB54100B59CBE /* Advotech Keyboard */,
+				3EEDEFC82B8FB6EC00B59CBE /* Test Keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E1C2C462B8916F400C179C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEDEFD82B8FB73100B59CBE /* Info.plist in Resources */,
+				3EEDEFC32B8FB61A00B59CBE /* Latest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEDEFAE2B8FB54100B59CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEDEFC42B8FB61A00B59CBE /* Latest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEDEFC72B8FB6EC00B59CBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEDEFD72B8FB71900B59CBE /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E1C2C442B8916F400C179C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEDEFD92B8FB73800B59CBE /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEDEFAC2B8FB54100B59CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EEDEFC52B8FB6EC00B59CBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEDEFD52B8FB6FD00B59CBE /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3EEDEFB62B8FB54100B59CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EEDEFAF2B8FB54100B59CBE /* Advotech Keyboard */;
+			targetProxy = 3EEDEFB52B8FB54100B59CBE /* PBXContainerItemProxy */;
+		};
+		3EEDEFCF2B8FB6EC00B59CBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3EEDEFC82B8FB6EC00B59CBE /* Test Keyboard */;
+			targetProxy = 3EEDEFCE2B8FB6EC00B59CBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3E1C2C542B8916F700C179C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3E1C2C552B8916F700C179C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E1C2C572B8916F700C179C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advoteck/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nithin.Advoteck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3E1C2C582B8916F700C179C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Advoteck/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nithin.Advoteck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EEDEFB92B8FB54100B59CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Advotech Keyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Advotech Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nithin.Advoteck.Advotech-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EEDEFBA2B8FB54100B59CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Advotech Keyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Advotech Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nithin.Advoteck.Advotech-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3EEDEFD22B8FB6EC00B59CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test Keyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Test Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nithin.Advoteck.Test-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3EEDEFD32B8FB6EC00B59CBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Test Keyboard/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Test Keyboard";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nithin.Advoteck.Test-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E1C2C432B8916F400C179C0 /* Build configuration list for PBXProject "Advoteck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1C2C542B8916F700C179C0 /* Debug */,
+				3E1C2C552B8916F700C179C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E1C2C562B8916F700C179C0 /* Build configuration list for PBXNativeTarget "Advoteck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E1C2C572B8916F700C179C0 /* Debug */,
+				3E1C2C582B8916F700C179C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EEDEFBB2B8FB54100B59CBE /* Build configuration list for PBXNativeTarget "Advotech Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EEDEFB92B8FB54100B59CBE /* Debug */,
+				3EEDEFBA2B8FB54100B59CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3EEDEFD12B8FB6EC00B59CBE /* Build configuration list for PBXNativeTarget "Test Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3EEDEFD22B8FB6EC00B59CBE /* Debug */,
+				3EEDEFD32B8FB6EC00B59CBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3E1C2C642B8919D500C179C0 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		3E1C2C662B8919D500C179C0 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		3E1C2C682B8919D500C179C0 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		3E1C2C6A2B8919D500C179C0 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		3E1C2C6C2B8919D500C179C0 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		3E1C2C6E2B8919D500C179C0 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		3E1C2C702B8919D500C179C0 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		3E1C2C722B8919D500C179C0 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		3E1C2C742B8919D500C179C0 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		3E1C2C762B8919D500C179C0 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		3E1C2C782B8919D500C179C0 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		3E1C2C7A2B8919D500C179C0 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		3E1C2C7C2B8919D500C179C0 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		3E1C2C7E2B8919D500C179C0 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		3E1C2C802B8919D500C179C0 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		3E1C2C822B8919D500C179C0 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		3E1C2C842B8919D500C179C0 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		3E1C2C862B8919D500C179C0 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		3E1C2C882B8919D500C179C0 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		3E1C2C8A2B8919D500C179C0 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		3E1C2C8C2B8919D500C179C0 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		3E1C2C8E2B8919D500C179C0 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3E1C2C902B8919D500C179C0 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		3E1C2C922B8919D500C179C0 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		3E1C2C942B8919D500C179C0 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		3E1C2C962B8919D500C179C0 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		3E1C2C982B8919D500C179C0 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3E1C2C632B8919D400C179C0 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3E1C2C402B8916F400C179C0 /* Project object */;
+}
